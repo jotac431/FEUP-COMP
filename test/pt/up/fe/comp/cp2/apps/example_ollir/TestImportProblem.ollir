@@ -1,0 +1,13 @@
+import java.util.Random;
+ClassCurrent extends Object {
+.method public static main(args.array.String).V {
+tmp0.Random :=.Random new(Random).Random;
+invokespecial(tmp0.Random, "").V;
+random.Random :=.Random tmp0.Random;
+ret.V ;
+}
+
+.construct ClassCurrent().V {
+invokespecial(this, "").V;
+}
+}

@@ -1,0 +1,31 @@
+import io;
+import Quicksort;
+
+class CompileBasic extends Quicksort {
+
+    int intField;
+    boolean boolField;
+
+    public int method1(int num) {
+        int num_aux;
+        while (num < 1){
+         	num_aux = 1;
+         	num = num + 1;}
+
+        return num_aux;
+
+    }
+
+
+    public boolean method2(int intParam1, boolean boolParam1) {
+        int a;
+        new CompileBasic().method1(10);
+        intParam1 = a;
+        return boolParam1;
+    }
+
+
+    public static void main(String[] args) {
+        io.println(new CompileBasic().method1(10));
+    }
+}
